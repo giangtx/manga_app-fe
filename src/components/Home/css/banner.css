@@ -1,0 +1,81 @@
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner-content{
+    width: 1200px;
+    margin: 30px auto;
+    position: relative;
+}
+.slide{
+    width: 1200px;
+    margin: 30px auto;
+    position: relative;
+    height: 432px;
+    overflow: hidden;
+}
+.slide .img{
+    overflow: hidden;
+    position: absolute;
+    transition: width 0.4s, height 0.4s, top 0.4s, left 0.4s, z-index 0.4s;
+}
+.slide .img1{
+    width: 0;
+    top: 12%;
+    left: -50%;
+    z-index: 1;
+}
+.slide .img2{
+    width: 35%;
+    top: 12%;
+    left: -5%;
+    z-index: 2;
+}
+.slide .img3{
+    width: 50%;
+    top: 0;
+    left: 25%;
+    z-index: 3;
+}
+.slide .img4{
+    width: 35%;
+    top: 12%;
+    right: -5%;
+    z-index: 2;
+}
+.slide .img5{
+    width: 0;
+    top: 12%;
+    left: 110%;
+    z-index: 1;
+}
+.change-banner-right{
+    position: absolute;
+    top: 50%;
+    right: -150px;
+    z-index: 20;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.change-banner-left{
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    z-index: 20;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.arrow{
+    font-size: 100px;
+    color: #CCCCCC;
+}
+.iconfont{
+    font-family: iconfont;
+}
+.side-bt{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 10;
+    margin-left: -71px;
+}

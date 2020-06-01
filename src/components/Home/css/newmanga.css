@@ -1,0 +1,35 @@
+.new-manga{
+    width: 100%;
+    overflow: hidden;
+}
+.new-manga-content{
+    width: 1200px;
+    margin: 15px auto;
+    overflow: hidden;
+    position: relative;
+}
+.see-all{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #FF5454;
+    font-size: 18px;
+}
+.list-new-manga{
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.manga-new-detail{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.manga-new-image img{
+    width: 100%;
+}
+.manga-new-title{
+    padding-top: 5px;
+}
+.manga-new-title span{
+    color: black;
+}
