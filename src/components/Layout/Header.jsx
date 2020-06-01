@@ -14,10 +14,10 @@ class Header extends React.Component{
                     <div className="menu">
                         <ul className="nav">
                             <li className="nav-item">
-                                <Link className="nav-link">Trang chủ</Link>
+                                <Link to="/manga-app" className="nav-link">Trang chủ</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link">Thể loại</Link>
+                                <Link to="/manga-app/category" className="nav-link">Thể loại</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link">Mới nhất</Link>
@@ -31,7 +31,7 @@ class Header extends React.Component{
                         </ul>
                     </div>
                     <div className="user-login">
-                        <Link to="/manga-app" className="nav-link">
+                        <Link to="/manga-app/login" className="nav-link">
                             <span>Đăng nhập</span>
                         </Link>
                     </div>

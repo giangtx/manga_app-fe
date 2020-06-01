@@ -5,7 +5,7 @@ class MangaDetail extends React.Component{
     render(){
         return(
             <div className="col-lg-2">
-                <Link>
+                <Link to="/manga-app/manga">
                     <div className="manga-new-detail">
                         <div className="manga-new-image">
                             <img src="http://cn.e.pic.mangatoon.mobi/cartoon-posters/7859c5a.jpg"></img>

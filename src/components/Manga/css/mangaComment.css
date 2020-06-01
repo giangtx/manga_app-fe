@@ -1,0 +1,43 @@
+.manga-comment{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.avatar-manga-comment{
+    padding: 0px;
+    height: 60px;
+    max-width: 60px !important;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-manga-comment img{
+    height: 100%;
+    width: auto;
+}
+.manga-comment-textarea{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+	border-radius: 3px;
+	resize: none;
+	font-size: 20px;
+	line-height: 24px;
+	overflow: auto;
+    height: auto;
+    width: 100%;
+	padding: 8px;
+}
+.comment{
+    border-top: 0.8px solid #55555538;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.list-comment{
+    padding-top: 25px;
+}
+.username-coment a{
+    color: black;
+    text-transform: capitalize
+}

@@ -1,0 +1,14 @@
+.manga{
+    margin-top: 71px;
+    width: 100%;
+    overflow: hidden;
+}
+.manga-content{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+.chap-title{
+    text-align: center;
+}

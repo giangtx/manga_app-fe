@@ -1,0 +1,11 @@
+.chap{
+    margin-top: 71px;
+    width: 100%;
+    overflow: hidden;
+}
+.chap-content{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
