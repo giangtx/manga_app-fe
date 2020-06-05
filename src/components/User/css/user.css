@@ -1,0 +1,113 @@
+.right-side{
+    padding-left: 270px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.top-bar{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #ccc;
+    z-index: 1;
+}
+.topbar-title{
+    display: inline-block;
+    
+}
+.topbar-p{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin-bottom: 0px;
+}
+.topbar-userinfo{
+    float: right;
+    padding-right: 30px;
+}
+.topbar-user-image{
+    padding: 0px;
+    height: 50px;
+    width: 50px !important;
+    max-width: 50px ;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.topbar-user-image img{
+    height: 100%;
+    width: auto;
+}
+.avatar-box{
+    padding-left: 80px;
+    padding-top: 70px;
+}
+.avatar-box-image{
+    padding: 0px;
+    height: 300px;
+    width: 300px !important;
+    max-width: 300px ;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-box-image img{
+    height: 100%;
+    width: auto;
+}
+.info-box-item{
+    font-size: 18px;
+	margin-top: 23px;
+}
+.info-box-item label{
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+	width: 158px;
+	margin-right: 0px;
+	width: 188px;
+	padding-right: 17px;
+}
+.info-box-item input[type=text]{
+    display: inline-block;
+    border: 1px solid #939393;
+    vertical-align: middle;
+	box-sizing: border-box;
+	width: 393px;
+    height: 37px;
+    padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 7px;
+}
+.box-info{
+    padding-top: 10px;
+}
+.info-detail{
+    padding-top: 50px;
+}
+.btn-info-box{
+    cursor: pointer;
+    margin-top: 60px;
+    padding: 0 10px;
+    min-width: 210px;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #5489ff;
+    display: inline-block;
+}
+.btn-info-box p{
+    font-size: 20px;
+    color: white;
+}

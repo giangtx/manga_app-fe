@@ -1,0 +1,75 @@
+.login{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.login-content{
+    width: 500px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+.tiny-title{
+    font-size: 10px;
+    margin-top: -px;
+    margin-left: 233px;
+    color: #9d9d9d;
+}
+.logo-login{
+    margin-bottom: 15px;
+}
+.logo-login span{
+    font-size: 55px;
+    font-family: cursive;
+}
+.btn-login{
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px transparent;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.fb-login{
+    background-color: #4c66a4;
+    
+}
+.fb-p{
+    color: white;
+    padding-top: 10px;
+}
+.gg-login{
+    background-color: #ff4646;
+}
+.gg-p{
+    color: white;
+    padding-top: 10px;
+}
+.login-input p {
+    text-align: left !important;
+    color: #555555;
+}
+.input-text{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.btn-login-black{
+    background-color: black;
+}
+.btn-login-black p{
+    padding-top: 10px;
+    color: white;
+}

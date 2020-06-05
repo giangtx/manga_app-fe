@@ -20,13 +20,13 @@ class Header extends React.Component{
                                 <Link to="/manga-app/category" className="nav-link">Thể loại</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link">Mới nhất</Link>
+                                <Link to="/new"className="nav-link">Mới nhất</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link">Không che</Link>
+                                <Link to="/new" className="nav-link">Không che</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link">Full color</Link>
+                                <Link to="/new" className="nav-link">Full color</Link>
                             </li>
                         </ul>
                     </div>

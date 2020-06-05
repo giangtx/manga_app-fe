@@ -21,7 +21,9 @@
 }
 .logo span{
     font-size: 30px;
-    font-family: cursive;;
+    font-family: cursive;
+    font-weight: bold;
+    color: #ff3a3a;
 }
 .menu{
     float: left;
@@ -58,7 +60,6 @@
 	border-radius: 50px;
 	border: solid 1px #dbdbdb;
 	padding-left: 20px;
-	background-color: #f6f6f6;
 }
 .user-login{
     float: right;

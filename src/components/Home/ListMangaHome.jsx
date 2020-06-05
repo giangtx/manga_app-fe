@@ -7,6 +7,11 @@ class ListMangaHome extends React.Component{
         super(props)
     }
     render(){
+        const list=mangas.map((manga,index)=>{
+            return(
+                <MangaDetail manga={manga} index={index}></MangaDetail>
+            )
+        })
         return(
             <div className="new-manga">
                 <div className="new-manga-content">
@@ -17,17 +22,7 @@ class ListMangaHome extends React.Component{
                         </Link>
                         <div className="list-new-manga">
                             <div className="row">
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                <MangaDetail></MangaDetail>
-                                
+                                {list}
                             </div>
                         </div>
                     </div>
@@ -37,4 +32,61 @@ class ListMangaHome extends React.Component{
         )
     }
 }
+const mangas=[
+    {
+        id:1,
+        name:"Cắn tai con mèo",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/7859c5a.jpg"
+    },
+    {
+        id:2,
+        name:"How to get lucky",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/15615b22.jpg-posterup4"
+    },
+    {
+        id:3,
+        name:"Tóc đen ôm tóc vàng",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/3842725b1.jpg-posterup4"
+    },
+    {
+        id:4,
+        name:"Tóc đen ôm tóc vàng phần 2",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/5998127aa.jpg-posterup4"
+    },
+    {
+        id:5,
+        name:"Suỵt",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/59979bb91.jpg-posterup4"
+    },
+    {
+        id:1,
+        name:"Cắn tai con mèo",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/7859c5a.jpg"
+    },
+    {
+        id:4,
+        name:"Tóc đen ôm tóc vàng phần 2",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/5998127aa.jpg-posterup4"
+    },
+    {
+        id:5,
+        name:"Suỵt",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/59979bb91.jpg-posterup4"
+    },
+    {
+        id:1,
+        name:"Cắn tai con mèo",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/7859c5a.jpg"
+    },
+    {
+        id:2,
+        name:"How to get lucky",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/15615b22.jpg-posterup4"
+    },
+    {
+        id:3,
+        name:"Tóc đen ôm tóc vàng",
+        url:"http://cn.e.pic.mangatoon.mobi/cartoon-posters/3842725b1.jpg-posterup4"
+    },
+]
 export default ListMangaHome;
