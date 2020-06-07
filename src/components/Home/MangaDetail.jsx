@@ -8,7 +8,7 @@ class MangaDetail extends React.Component{
     render(){
         const {id,name,url}=this.props.manga;
         return(
-            <div className="col-lg-2" key={this.props.index}>
+            <div className="col-lg-2 col-md-2 col-sm-3" key={this.props.index}>
                 <Link to={"/manga-app/manga/"+id}>
                     <div className="manga-new-detail">
                         <div className="manga-new-image">

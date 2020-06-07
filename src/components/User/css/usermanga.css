@@ -1,0 +1,78 @@
+.user-manga-content{
+    padding: 40px;
+    line-height: 60px;
+}
+.user-manga-content a{
+    text-decoration: none;
+}
+.user-manga-page{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    min-height: 450px;
+}
+.user-manga-page-title{
+    margin: 0 30px;
+    border-bottom: 1px solid #ccc;
+}
+.btn-create-manga{
+    cursor: pointer;
+    padding: 0 10px;
+    min-width: 150px;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #ff5454;
+    display: inline-block;
+    color: white;
+}
+.title-top-usermanga{
+    max-width: 160px;
+    border-bottom: solid 2px #ff5454;
+}
+.title-top-usermanga span{
+    margin-left: 5px;
+    color: #ff5454;
+    font-weight: 500;
+}
+.user-manga-page-content{
+    margin: 0 30px;
+}
+.user-manga-detail{
+    padding: 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.user-manga-image img{
+    height: auto;
+    width: 75px;
+}
+.user-manga-info{
+    padding-left: 30px;
+    line-height: 20px;
+}
+.title-manga-user{
+    color: black;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.user-manga-update-time{
+    padding-top: 5px;
+}
+.user-manga-update-time span{
+    color: #999;
+    font-size: 12px;
+    padding-right: 30px;
+}
+.user-manga-count{
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+.user-manga-count li{
+    color: #999;
+    float: left;
+    padding-right: 30px;
+}

@@ -80,5 +80,6 @@ const info={
             "này cô nhóc kia"+
             "đang làm gì ở đây giờ này hả, về nhà đi"+
             "chú ơi.. cho tôi ở lại nhà chú đêm nay nhé...."
+    
 }
 export default MangaInfo

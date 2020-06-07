@@ -10,6 +10,9 @@ import Login from './components/Login/Login';
 import Signin from './components/Login/Signin';
 import User from './components/User/User';
 import UploadManga from './components/User/UploadManga';
+import UploadChapter from './components/User/UploadChapter';
+import UserManga from './components/User/UserManga';
+import UserMangaDetail from './components/User/UserMangaDetail';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
                 <Route path="/manga-app/user">
                     <Route path="/manga-app/user/info" component={User}></Route>
                     <Route path="/manga-app/user/upload-manga" component={UploadManga}></Route>
+                    <Route path="/manga-app/user/upload-chapter" component={UploadChapter}></Route>
+                    <Route path="/manga-app/user/list-manga" component={UserManga}></Route>
+                    <Route path="/manga-app/user/manga-detail" component={UserMangaDetail}></Route>
                 </Route>
                 <Layout>
                     <Route exact={true} path="/manga-app" component={Home}></Route>

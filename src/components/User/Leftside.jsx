@@ -22,16 +22,16 @@ class Leftside extends React.Component{
                             <Link to="/manga-app/user/info"><i className="far fa-user"></i> Thông tin người dùng</Link>
                         </li>
                         <li className="item-leftside">
-                            <Link><i className="fas fa-home"></i> Bản thảo của tôi</Link>
+                            <Link to="/manga-app/user/list-manga"><i className="fas fa-home"></i> Bản thảo của tôi</Link>
                         </li>
                         <li className="item-leftside">
-                            <Link><i className="fas fa-chart-line"></i> Chi tiết</Link>
+                            <i className="fas fa-chart-line"></i> Chi tiết
                         </li>
                         <li className="item-leftside">
-                            <Link> <i className="fas fa-comment-dots"></i> Bình luận</Link>
+                            <i className="fas fa-comment-dots"></i> Bình luận
                         </li>
                         <li className="item-leftside">
-                            <Link><i className="fas fa-question"></i> Các câu hỏi thưởng gặp</Link>
+                            <i className="fas fa-question"></i> Các câu hỏi thưởng gặp
                         </li>
                     </ul>
                 </div>

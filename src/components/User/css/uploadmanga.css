@@ -1,5 +1,6 @@
 .upload-content{
     padding: 40px;
+    line-height: 60px;
 }
 .upload-page{
     border: solid 1px #ccc;
@@ -52,8 +53,9 @@
     width: 880px;
 }
 .upload-form-lable span{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 20px;
+    font-weight: 500;
 }
 .text-count{
     position: absolute;

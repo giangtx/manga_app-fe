@@ -1,0 +1,38 @@
+.title-upload-img{
+    height: 50px;
+    border: 1px solid #939393;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: none;
+}
+.upload-chapter-form-input textarea{
+    line-height: 25px;
+    background-color: #f8f8f8;
+    display: inline-block;
+    border: 1px solid #939393;
+    vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+    padding-right: 12px;
+	padding-left: 12px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.icon-img-upload-chap{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    color: #939393;
+}
+.input-file-upload-chap{
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 15px;
+    opacity: 0;
+    
+}

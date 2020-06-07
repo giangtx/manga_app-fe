@@ -22,6 +22,9 @@
 }
 .category-name-list{
     padding-top: 15px;
+    
+}
+.category-name-list a{
     color: #555555;
 }
 .category-name-list ul{
